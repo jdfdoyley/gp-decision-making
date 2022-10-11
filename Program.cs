@@ -9,3 +9,22 @@
  * conditional operators. We will also explore decision making through
  * the use of both an if-else statement and a switch statement.
 */
+public class application
+{
+    static void Main(string[] args)
+    {
+        // Print a header line
+        Console.WriteLine(
+            "Jason D'Oyley - Week 2 GP Decisions & Logical Operators\n"
+        );
+
+        // Display a truth table for conditional AND (&&) operator
+        Console.WriteLine(
+            "Conditional AND (&&):\n{0}: {1}\n{2}: {3}\n{4}: {5}\n{6}: {7}\n",
+            "false && false", false && false,
+            "false && true", false && true,
+            "true && false", true && false,
+            "true && true", true && true
+        );
+    }
+}
