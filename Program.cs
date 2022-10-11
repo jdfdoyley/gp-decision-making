@@ -53,5 +53,14 @@ public class application
             "true | false", true | false,
             "true | true", true | true
         );
+
+        // Display a truth table for logical exclusive OR (^) operator
+        Console.WriteLine(
+            "Logical exclusive OR (^):\n{0}: {1}\n{2}: {3}\n{4}: {5}\n{6}: {7}\n",
+            "false ^ false", false ^ false,
+            "false ^ true", false ^ true,
+            "true ^ false", true ^ false,
+            "true ^ true", true ^ true
+        );
     }
 }
