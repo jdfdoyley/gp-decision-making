@@ -62,5 +62,12 @@ public class application
             "true ^ false", true ^ false,
             "true ^ true", true ^ true
         );
+
+        // Display a truth table for logical negation (!) operator
+        Console.WriteLine(
+            "Logical negation (!):\n{0}: {1}\n{2}: {3}\n",
+            "!false", !false,
+            "!true", !true
+        );
     }
 }
