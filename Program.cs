@@ -69,5 +69,33 @@ public class application
             "!false", !false,
             "!true", !true
         );
+
+        // Get an integer grade value from the user
+        Console.Write("\nEnter an integer grade in range 0 - 100: ");
+        string? val = Console.ReadLine();
+        int grade = Convert.ToInt32(val);
+
+        // Determine the letter grade using and if-else structure
+        Console.WriteLine("Determining grade using if-else: ");
+        if (grade >= 90)
+        {
+            Console.WriteLine("The grade entered is an A.");
+        }
+        else if (grade >= 80)
+        {
+            Console.WriteLine("The grade you entered is a B.");
+        }
+        else if (grade >= 70)
+        {
+            Console.WriteLine("The grade entered is a C.");
+        }
+        else if (grade >= 60)
+        {
+            Console.WriteLine("The grade entered is a D.");
+        }
+        else
+        {
+            Console.WriteLine("The grade entered is an F.");
+        }
     }
 }
