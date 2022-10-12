@@ -97,5 +97,30 @@ public class application
         {
             Console.WriteLine("The grade entered is an F.");
         }
+
+        // Determine the letter grade using a switch structure
+        Console.WriteLine("\nDetermining grade using switch: ");
+
+        // Use grade divided by 10 (grade/10) to get just the first
+        // digit of the grade
+        switch (grade / 10)
+        {
+            case 9:
+            case 10:
+                Console.WriteLine("The grade entered is an A.");
+                break;
+            case 8:
+                Console.WriteLine("The grade entered is a B.");
+                break;
+            case 7:
+                Console.WriteLine("The grade entered is a C.");
+                break;
+            case 6:
+                Console.WriteLine("The grade entered is a D.");
+                break;
+            default:
+                Console.WriteLine("The grade entered is a F.");
+                break;
+        }
     }
 }
